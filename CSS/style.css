@@ -1,0 +1,46 @@
+html {
+  background-color: cornflowerblue;
+  overflow: hidden;
+}
+
+body {
+  width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin: 0 auto 0 auto;
+  height: 829px;
+  overflow: auto;
+}
+
+h2 {
+  font-family: sans-serif;
+  color: #483D9B;
+  margin-left: 22px;
+}
+
+#explore {
+  margin-top: 20px;
+
+}
+
+#enjoy {
+  margin-top: 200px;
+
+}
+
+#explorebutton {
+  margin: 1000px 154px 12px 154px;
+}
+
+.yellow {
+  height:60px;
+  width:60px;
+  background: #F7C767;
+  margin:10px 25px 10px 25px;
+  list-style: none;
+  border-radius: 100px;
+  text-align: center;
+}
