@@ -27,13 +27,13 @@ h2 {
 }
 
 #enjoy {
-  margin-top: 50px;
+  margin-top: 30px;
 
 }
 
 #searchbutton {
   margin-left: 65px;
-  margin-bottom: 12px;
+
 }
 
 #explorebutton {
@@ -43,16 +43,20 @@ h2 {
 
 #profilebutton {
   margin-right: 65px;
-  margin-bottom: 12px;
+
+}
+
+ul {
+  margin: 0;
 }
 section li {
 
-  background-image: linear-gradient(180deg, #FCE5A0, #F7C767);
-  height: 95px;
-  width: 95px;
-  margin: 25px;
-  padding: 5px;
-  display:inline-block ;
+
+  height: 235px;
+  width: 166px;
+  margin: 0px;
+  padding: 0;
+  display:inline;
   border-radius: 50px;
   line-height: 20px;
   white-space: nowrap;
