@@ -21,19 +21,15 @@ ul {
   margin: 0;
 }
 
-.ess {
-  text-decoration: none;
-  display: inline;
-  height: 215px;
-  width: 161px;
+section li {
+  margin: 2.55px;
+  padding: 0;
+  display:inline;
+  border-radius: 50px;
+  line-height: 20px;
+  white-space: nowrap;
 }
 
-.enj {
-  text-decoration: none;
-  display: inline;
-  height: 163px;
-  width: 126px;
-}
 
 a {
   font-size: 20px;
@@ -48,6 +44,7 @@ nav {
   position: fixed;
   bottom: 0;
   background-color: white;
+  margin-bottom: 10px;
 }
 
 p {
