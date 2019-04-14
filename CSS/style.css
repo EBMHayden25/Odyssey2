@@ -4,9 +4,10 @@ html {
 }
 
 h2 {
-  font-family: sans-serif;
+  font-family: Avenir-Black;
   color: #483D9B;
   margin-left: 22px;
+  margin-bottom: 5px;
 }
 
 h3 {
@@ -20,15 +21,18 @@ ul {
   margin: 0;
 }
 
-section li {
-  height: 235px;
-  width: 166px;
-  margin: 0px;
-  padding: 0;
-  display:inline;
-  border-radius: 50px;
-  line-height: 20px;
-  white-space: nowrap;
+.ess {
+  text-decoration: none;
+  display: inline;
+  height: 215px;
+  width: 161px;
+}
+
+.enj {
+  text-decoration: none;
+  display: inline;
+  height: 163px;
+  width: 126px;
 }
 
 a {
@@ -46,17 +50,24 @@ nav {
   background-color: white;
 }
 
+p {
+  font-family: Avenir-Roman;
+  margin-left: 22px;
+  color: #483D9B;
+  margin-top: 5px;
+}
+
 #explorebody {
   width: 375px;
   margin-left: auto;
   margin-right: auto;
+  background: white;
   margin-top: 0;
   margin-bottom: 0;
   margin: 0 auto 0 auto;
   height: 829px;
-  overflow: auto;
+  overflow: scroll;
 }
-
 
 #explore {
   margin-top: 20px;
@@ -95,12 +106,19 @@ nav {
   overflow: auto;
 }
 
+#logo {
+  margin-top: 120px;
+  margin-right: 66px;
+  margin-left: 65px;
+}
+
 .whitebox {
   width: 319px;
   height: 362px;
   background: white;
   border-radius: 25px;
-  margin: 250px 28px 128px 28px;
+  margin-left: 28px;
+  margin-top: 61px;
 }
 .exp {
   margin-left: 0;
