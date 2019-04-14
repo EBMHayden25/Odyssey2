@@ -38,6 +38,14 @@ a {
   text-decoration: none;
 }
 
+a:active {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 nav {
   display: inline-block;
   width: 375px;
@@ -112,11 +120,13 @@ p {
 #up {
   margin-left: 60px;
   margin-right: 50px;
+  color: #483D9B;
 }
 
 #in {
   margin-left: 55px;
   margin-right: 50px;
+  color: #483D9B;
 }
 .whitebox {
   width: 319px;
