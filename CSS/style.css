@@ -14,7 +14,7 @@ h3 {
   font-family: sans-serif;
   font-size: 15pt;
   color: #483D9B;
-  margin-left: 22px;
+  display: inline;
 }
 
 ul {
@@ -109,6 +109,15 @@ p {
   margin-left: 65px;
 }
 
+#up {
+  margin-left: 60px;
+  margin-right: 50px;
+}
+
+#in {
+  margin-left: 55px;
+  margin-right: 50px;
+}
 .whitebox {
   width: 319px;
   height: 362px;
