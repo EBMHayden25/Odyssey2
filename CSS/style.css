@@ -18,7 +18,7 @@ h3 {
 }
 
 ul {
-  margin: 0;
+  padding-left: 22px;
 }
 
 section li {
@@ -49,6 +49,7 @@ a:hover {
 nav {
   display: inline-block;
   width: 375px;
+  height: 90px;
   position: fixed;
   bottom: 0;
   background-color: white;
@@ -57,7 +58,7 @@ nav {
 
 p {
   font-family: Avenir-Roman;
-  margin-left: 22px;
+  margin:5px 0 0 22px;
   color: #483D9B;
   margin-top: 5px;
 }
@@ -72,6 +73,7 @@ p {
   margin: 0 auto 0 auto;
   height: 829px;
   overflow: scroll;
+  overflow-x: auto;
 }
 
 #explore {
@@ -80,7 +82,7 @@ p {
 }
 
 #enjoy {
-  margin-top: 30px;
+  margin-top:0px;
 
 }
 
@@ -128,6 +130,11 @@ p {
   margin-right: 50px;
   color: #483D9B;
 }
+
+#menubutton {
+  margin-left: 22px;
+}
+
 .whitebox {
   width: 319px;
   height: 362px;
@@ -136,6 +143,22 @@ p {
   margin-left: 28px;
   margin-top: 61px;
 }
-.exp {
-  margin-left: 0;
+
+
+div.container {
+ max-width: 375px;
+ padding: 0px;
+ background-color: white;
+ overflow: auto;
+}
+
+div.content {
+  display: flex;
+ flex-wrap: wrap;
+ min-width: 748px;
+}
+div.content2 {
+  display: flex;
+ flex-wrap: wrap;
+ min-width: 608px;
 }
