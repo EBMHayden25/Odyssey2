@@ -49,7 +49,7 @@ a:hover {
 nav {
   display: inline-block;
   width: 375px;
-  height: 90px;
+  height: 80px;
   position: fixed;
   bottom: 0;
   background-color: white;
@@ -66,18 +66,21 @@ nav {
 
 }
 
-#searchbutton {
+.searchbutton {
   margin-left: 65px;
+  margin-bottom: 10px;
 
 }
 
-#explorebutton {
+.explorebutton {
   margin-left: 57px;
   margin-right: 57px;
+  margin-bottom: 10px;
 }
 
-#profilebutton {
+.profilebutton {
   margin-right: 65px;
+  margin-bottom: 10px;
 
 }
 
@@ -113,10 +116,6 @@ nav {
   color: #483D9B;
 }
 
-#menubutton {
-  margin-left: 22px;
-}
-
 #signinpush {
   color: white;
   font-family: Avenir-Black;
@@ -126,11 +125,61 @@ nav {
   margin-top: 12px;
 }
 
+
+#exploreheader {
+  display: inline;
+}
+
+#username {
+  font-size: 25px;
+  font-family: Avenir-Black;
+  margin-bottom: 5px;
+}
+
+#messagepush {
+  color: white;
+  font-family: Avenir-Black;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 7px;
+  margin-top: -2px;
+}
+
+#fave {
+  margin-right: 30px;
+  margin-left: 15px;
+
+}
+
+#int {
+  margin-right: 40px;
+  margin-left: 20px;
+
+}
+
+#doc {
+  margin-right: 15px;
+  margin-left: 10px;
+
+}
+
+#userinfo {
+  font-size: 15px;
+  font-family: Avenir-Roman;
+  margin-top: 5px;
+}
+
+#foodinfo {
+  font-size: 15px;
+  font-family: Avenir-Roman;
+  text-align: center;
+}
+
 .mainbody {
   width: 375px;
   margin-left: auto;
   margin-right: auto;
-  background:white;
+  background:linear-gradient(180deg, #ffffff, #EBEAEA);
   margin-top: 0;
   margin-bottom: 0;
   margin: 0 auto 0 auto;
@@ -155,10 +204,28 @@ nav {
   margin-top: 40px;
 }
 
+.headernav {
+  margin-left: 22px;
+  margin-right: 50px;
+}
+
+.user {
+  color:#483D9B;
+  text-align: center;
+}
+
+.usertabstext {
+  font-family: Avenir-Black;
+  color: black;
+  font-size: 15px;
+  display: inline;
+}
+
+
 div.container {
  max-width: 375px;
  padding: 0px;
- background-color: white;
+ background-color: linear-gradient(180deg, #ffffff, #EBEAEA);
  overflow: auto;
 }
 
@@ -195,4 +262,42 @@ div.signinbutton {
   height: 50px;
   margin-bottom: 50px;
   margin-top: 35px;
+}
+
+div.profilepicture {
+  margin: auto;
+  height: 114px;
+  width: 114px;
+}
+
+div.messagebutton {
+  background: #483D9B;
+  border-radius: 8px;
+  padding: 10px;
+  width: 300px;
+  height: 20px;
+  margin:auto;
+  margin-top: 20px;
+}
+
+div.usertabs {
+  margin: auto;
+  margin-top: 20px;
+  height: 20px;
+  width: 350px;
+}
+
+div.listoffavorites {
+  height: 416px;
+  width: 318px;
+  margin: auto;
+  margin-top: 20px;
+  overflow: auto;
+}
+div.listofrestaurants {
+  height: 656px;
+  width: 318px;
+  margin: auto;
+  margin-top: 20px;
+  overflow: auto;
 }
